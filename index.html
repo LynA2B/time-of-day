@@ -91,21 +91,17 @@
             myPick = "night.jpg";
         }
 
+        //prepend images folder
+        myPick = "images/" = myPick;
+
+        //apply text
         document.getElementById("time-text").innerHTML = mySentence;
+
         //document.body.style.backgroundColor = myColor;
         document.querySelector('html').style.backgroundColor = myColor;
 
-
-
-
-
-
-
-
-
-
-
-
+        //apply image
+        document.getElementById("time-pic").src = myPick;
 
         // Fixes HTML/CSS Checker links
         document.addEventListener("DOMContentLoaded", function() {
