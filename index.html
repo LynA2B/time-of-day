@@ -110,10 +110,10 @@
         //day of the week
         let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         let myDay = days[ myDate.getDay() ];
-        document.getElementById("main-greeting").innerHTML = "Happy" + myDay + "!";
+        document.getElementById("main-greeting").innerHTML = "Happy " + myDay + "!";
 
         //prepend images folder
-        myPick = "images/" = myPick;
+        myPick = "images/" + myPick;
 
         //apply text
         document.getElementById("time-text").innerHTML = mySentence;
